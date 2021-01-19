@@ -1,0 +1,10 @@
+#Library
+import pandas as pd                                 #Proses Analisis Data
+import matplotlib.pyplot as plt                     #Visualisasi Data
+import seaborn as sns                               #Visualisasi Data
+from sklearn.preprocessing  import LabelEncoder     #Mengubah kategorik menjadi dummy
+from sklearn.preprocessing import StandardScaler   
+
+from kmodes.kmodes import KModes                    #Pemodelan KMods
+from kmodes.kprototypes import KPrototypes          #Pemodelan KPrototypess
+
