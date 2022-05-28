@@ -27,3 +27,13 @@ Menampilkan __3 Data teratas hasil standarisasi__
 1. Ekplorasi Data 
 <img src="/Gambar/Ekplorasi%20Data%20Katagorik.svg"  width="550" >
 2. Label Encoding
+
+| Jenis Kelamin  Sebelum | Profesi Sebelum    |  Tipe Residen sebelum | Jenis Kelamin Sesudah | Profesi Sesudah   |  Tipe Residen sesudah                
+| ---------------------| ----------------------| ---------------------| ----------------------| ---------------------| ----------------------|
+|Pria |             Wiraswasta |        Sector|0          |4      |1|
+|Wanita|             Pelajar |       Cluster|1            |2      |0|
+|Pria |             Professional    |       Cluster|0        |3      |0|
+
+## Modelling
+Jenis machine learning yang diterapkan adalah Unsupervised Learning atau clustering, dengan model yang akan digunakan kali ini adalah [**KPrototypes**](https://kprototypes.readthedocs.io/en/latest/). Model ini digunakan karena cocok untuk data campuran yang bertipe numerik dan katagorik.
+
