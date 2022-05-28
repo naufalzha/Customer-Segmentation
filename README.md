@@ -24,10 +24,12 @@ Menampilkan __3 Data teratas hasil standarisasi__
 
 
 `Variabel Katagorik : Variabel Jenis Kelami, Variabel Profesi dan Variabel Tipe Residen`
-1. Ekplorasi Data 
+**1. Ekplorasi Data** 
 <img src="/Gambar/Ekplorasi%20Data%20Katagorik.svg"  width="550" >
-2. Label Encoding
 
+**2. Label Encoding**
+
+Menampilkan __3 Data teratas hasil Label Encoding__
 | Jenis Kelamin  Sebelum | Profesi Sebelum    |  Tipe Residen sebelum | Jenis Kelamin Sesudah | Profesi Sesudah   |  Tipe Residen sesudah                
 | ---------------------| ----------------------| ---------------------| ----------------------| ---------------------| ----------------------|
 |Pria |             Wiraswasta |        Sector|0          |4      |1|
@@ -37,3 +39,8 @@ Menampilkan __3 Data teratas hasil standarisasi__
 ## Modelling
 Jenis machine learning yang diterapkan adalah Unsupervised Learning atau clustering, dengan model yang akan digunakan kali ini adalah [**KPrototypes**](https://kprototypes.readthedocs.io/en/latest/). Model ini digunakan karena cocok untuk data campuran yang bertipe numerik dan katagorik.
 
+**1. Menentukan Jumlah Cluster Optimal** 
+
+<img src="/Gambar/Nilai%20K%20Optimal.png"  width="500" height="500">
+
+dapat dilihat dari gambar diatas bahwa nilai cluster optimal yang terbentuk adalah **5 Cluster**
