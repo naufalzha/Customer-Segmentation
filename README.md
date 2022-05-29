@@ -44,3 +44,33 @@ Jenis machine learning yang diterapkan adalah Unsupervised Learning atau cluster
 <img src="/Gambar/Nilai%20K%20Optimal.png"  width="500" height="500">
 
 dapat dilihat dari gambar diatas bahwa nilai cluster optimal yang terbentuk adalah **5 Cluster**
+
+
+**2. Model** 
+
+model yang digunakan dapat di akses [DI SINI](/Model)
+
+**3. Hasil Pengelompokan** 
+
+Hasil pengelompokan customer bedasarkan data yang ada dengan menggunakan algoritma KPrototypes dapat dilihat [DI SINI](Hasil%20Pengelompokan/hasil%20pengelompokan%20customer.csv)
+
+## Kesimpulan 
+
+**1. Visualisasi Bedasarkan Variabel** 
+
+karakteristik kelompok bedasarkan setiap variabel dapat dilihat [DI SINI](Hasil%20Pengelompokan/Visualisasi%20Hasil)
+
+**2. Keterangan Kelompok** 
+| Cluster | Keterangan  |
+| --------| ------------|
+|0|Young Entreprenuer, Customer dengan rata-rata belanja 10 juta dengan umur 18-41 tahun dan rata-rata umur 29 tahun
+|1|Senior Entreprenuer, Customer dengan rata-rata belanja 10 juta dengan umur 45-64 tahun dan rata-rata umur 51 tahun
+|2|Student, Customer pelajar dan mahasiswa dengan rata-rata umur 16 tahun dan nilai belanja mendekati 3 juta
+|3|Young Member, Customer professional atau ibu rumah tangga dengan umur 20-40 atau rata rata usia 30 tahun dan  rata-rata belanja mendekati 6 juta
+|4|Senior Member, Customer professional atau ibu rumah tangga dengan umur 46-6 atau rata rata usia 53 tahun dan  rata-rata belanja mendekati 6 juta
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Thank You For Attention! :grin: , See u Next Project :v:
+
+©Naufal Zhafran Albaqi-
+
